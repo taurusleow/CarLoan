@@ -6,6 +6,10 @@ plugins {
 android {
     compileSdk 32
 
+    //TODO 1: Enable data binding
+    buildFeatures{
+        dataBinding true
+    }
     defaultConfig {
         applicationId "my.edu.tarc.carloan"
         minSdk 21
